@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ListWithIterator {
     public static void main(String[] args) {
-        List<Integer> integerList=new ArrayList<>();
+        List<Integer> integerList = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             integerList.add(i + 1);
         }
