@@ -12,7 +12,7 @@ public class ListWithIterator {
         }
 
         Iterator <Integer> integerIterator = integerList.iterator();
-        while ((integerIterator.hasNext())){
+        while (integerIterator.hasNext()){
             Integer temp = integerIterator.next();
             System.out.println(temp);
         }
